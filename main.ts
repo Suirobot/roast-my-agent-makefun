@@ -7,7 +7,7 @@ import { dirname } from "node:path";
 const OUT = "/output/entry.txt";
 
 const LINE =
-  "My agent turns a one-line fix into a four-file refactor and a meeting. I keep it because the apology emails are beautifully formatted.";
+  "My agent writes 400 lines to avoid one phone call, then apologizes to the compiler. It is not lazy - it is load-bearing procrastination with a changelog.";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
